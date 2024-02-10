@@ -1,0 +1,55 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.box-container {
+  position: relative;
+  display: inline-block;
+  margin-top: 20px; /* Example margin */
+}
+.box{
+  position: relative;
+  height: 60px;
+  width:40px;
+  border: solid blue;
+}
+.red-box {
+  position: absolute;
+  top: 0; /* Adjust as needed */
+  right: 0; /* Adjust as needed */
+  z-index: 1;
+  border: 2px solid red; /* Example border */
+  border-radius: 5px; /* Example border radius */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Example box shadow */
+}
+.cal2{
+  border: 2px solid;
+  padding: 5px;
+  h1{
+    border: 2px solid;
+     border-collapse: collapse;
+  }
+ 
+}
+.select1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 5px;
+}
+.select2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 5px;
+}
+.submits{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin: 5px;
+  padding: 5px;
+}
